@@ -1,5 +1,5 @@
 body {
-  background-color: #ccc;
+  background-color: #fff;
 }
 
 .container {
@@ -34,10 +34,11 @@ button {
   width: 40%;
   margin: 20px auto;
   padding: 20px;
-  background-color: rgba(4, 0, 255, 0.8);
+  background-color: rgba(0, 140, 255, 0.726);
   text-decoration: none;
   color: black;
-  font-size: 2em;
+  font-size: 1.5em;
+  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -47,7 +48,7 @@ button a {
 }
 
 .deleteButton {
-  background-color: red;
+  background-color: rgb(255, 136, 25);
 }
 
 form {
