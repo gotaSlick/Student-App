@@ -35,6 +35,15 @@ app.use(function(req, res, next){
 });
 
 //start server
-app.listen(3000, () => {
-	console.log("server is listening on port 3000");
-});
+// app.listen(3000, () => {
+// 	console.log("server is listening on port 3000");
+// });
+
+
+app.set( 'port', ( process.env.PORT || 3000 ));
+
+// Start node server
+app.listen( app.get( 'port' ), function() {
+  console.log( 'Node server is running on port ' + app.get( 'port' ));
+  });
+
